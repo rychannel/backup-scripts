@@ -5,7 +5,7 @@
 # baremetal-backup.sh -	This is an online bare metal
 #			backup script.
 #
-# Author: Ryan Murphy <Twitter: @RyChannel>
+# Author: Ryan Patrick Murphy <Twitter: @RyChannel>
 #
 # Atrribute:
 # This script is based on code found in WC Preston's book
