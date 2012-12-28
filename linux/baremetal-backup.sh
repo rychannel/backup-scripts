@@ -25,6 +25,9 @@ localfolder="/backups"
 mkdir $localfolder
 mount $nfsserver:$nfsshare $localfolder
 
+#Copy /etc/fstab so you can reference it for the restore
+cp /etc/fstab $localfolder/fstab
+
 #Backup the MBR
 
 dd if=/dev/sda of=$localfolder/mbr bs=512 count=1
